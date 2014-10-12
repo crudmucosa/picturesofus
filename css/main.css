@@ -82,6 +82,17 @@ header nav ul li a{
     -o-transition:all .1s linear;
 }
 
+h3.title a{
+	text-decoration: none;
+	transition:all .1s linear;
+    -webkit-transition:all .1s linear;
+    -moz-transition:all .1s linear;
+    -o-transition:all .1s linear;
+}
+h3.title a:hover {
+	color: #969595;
+}
+
 h1, h2, h3, h4, h5 ,h6{
     color: #4b4848;
     font-family: "raleway-regular", arial;
