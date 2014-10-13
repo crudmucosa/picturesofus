@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>PICTURES OF US &middot; NET :: Home</title>
+	<title>PICTURES OF US &middot; NET::Home</title>
 	<!--#include virtual="imports/bootstrap.ssi" -->
 </head>
 <body>
@@ -12,31 +12,15 @@
 		</div><!-- end logo -->
 
 		<div id="menu_icon"></div>
-		<nav>
-			<ul>
-				<li><a href="index.html" class="selected">Home</a></li>
-				<li><a href="about.html">About</a></li>
-				<li><a href="next.html">Where to Next?</a></li>
-				<li><a href="info.html">Info</a></li>
-				<li><a href="links.html">Links</a></li>
-				<li><a href="contact.html">Contact Us</a></li>
-			</ul>
-		</nav><!-- end navigation menu -->
+		<!--#include virtual="imports/navmenu.ssi" -->
+		<!-- end navigation menu -->
 
 		<div class="footer clearfix">
-			<ul class="social clearfix">
-				<li><a href="#" class="fb" data-title="Facebook"></a></li>
-				<li><a href="#" class="google" data-title="Google +"></a></li>
-				<li><a href="#" class="behance" data-title="Behance"></a></li>
-				<li><a href="#" class="twitter" data-title="Twitter"></a></li>
-				<!--<li><a href="#" class="dribble" data-title="Dribble"></a></li>-->
-				<li><a href="#" class="rss" data-title="RSS"></a></li>
-			</ul><!-- end social -->
+		<!--#include virtual="imports/social.ssi" -->
+			<!-- end social -->
 
 			<div class="rights">
-				<p>Copyright © 2014 Crudmucosa</p>
-				<p>Template Copyright © 2014 magnetic.</p>
-				<p>Template by <a href="">Pixelhint.com</a></p>
+			<!--#include virtual="imports/rights.ssi" -->
 			</div><!-- end rights -->
 		</div ><!-- end footer -->
 	</header><!-- end header -->

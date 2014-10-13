@@ -1,0 +1,10 @@
+<nav>
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="about.html">About</a></li>
+				<li><a href="next.html">Where to Next?</a></li>
+				<li><a href="info.html">Info</a></li>
+				<li><a href="links.html">Links</a></li>
+				<li><a href="contact.html">Contact Us</a></li>
+			</ul>
+</nav>
