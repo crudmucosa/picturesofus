@@ -1,0 +1,16 @@
+# Use PHP5 as default
+AddHandler application/x-httpd-php5 .php5 .php4 .php .php3 .php2 .phtml
+AddType application/x-httpd-php5 .php5 .php4 .php .php3 .php2 .phtml
+
+Options All -Indexes
+
+<Files 403.shtml>
+order allow,deny
+allow from all
+</Files>
+
+deny from 94.23.26.35
+deny from 91.121.15.189
+
+AddType text/html .html
+AddOutputFilter INCLUDES .html
